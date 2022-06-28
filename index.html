@@ -5,6 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="icon" type="image/x-icon" href="./asset/img/pet_favicon_grid.png">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
     <link rel="stylesheet" href="./css/style.css">
     <title>Adopta</title>
 </head>
@@ -33,7 +34,7 @@
 
     <main class="main">
         
-        <div class="caja__tienda">
+        <div class="caja__tienda" data-aos="fade-right">
             <a href="./productos.html" class="link__caja"></a>
             <img class="img__tienda" src="./asset/img/pet_shop_grid.jpg" alt="">
 
@@ -50,7 +51,7 @@
             
         </div>
 
-        <div class="caja__adopta">
+        <div class="caja__adopta" data-aos="fade-right">
                 <a href="./adopta.html" class="link__caja"></a>
                 <img  class="img__adopta" src="./asset/img/pet_adopta_grid.jpg" alt="">
             
@@ -64,7 +65,7 @@
             </div>
         </div>
 
-        <div class="caja__chart">
+        <div class="caja__chart" data-aos="fade-right">
             <a href="https://www.uc.cl/noticias/veterinaria-uc-existen-12-millones-de-perros-y-gatos-con-duenos-en-chile-y-4-millones-sin-ellos/" class="link__caja"></a>   
             <img class="img__chart" src="./asset/img/pet_chart_grid.jpg" alt="">
             <div class="caja__chart--texto">
@@ -75,7 +76,7 @@
 
         </div>
 
-        <div class="caja__donate">
+        <div class="caja__donate" data-aos="fade-right">
             <a href="./donaciones.html" class="link__caja"></a>
             <img class="img__donate" src="./asset/img/pet_donate_grid.png" alt="">
             <div class="caja__donate--texto">
@@ -86,7 +87,7 @@
 
         </div>
 
-        <div class="caja__somos">
+        <div class="caja__somos" data-aos="fade-right">
             <div class="somos__texto">
                 <h4>¿Quienes somos?</h4>
                 <p>
@@ -101,7 +102,7 @@
         
     </main>
 
-    <aside class="sidebar">
+    <aside class="sidebar" data-aos="fade-left">
        
         <div class="texto__sidebar">
              <p>All</p>
@@ -149,5 +150,10 @@
         </div>
        
     </footer>
+
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+        AOS.init();
+      </script>
 </body>
 </html>
